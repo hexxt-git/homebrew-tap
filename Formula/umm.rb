@@ -1,28 +1,28 @@
 class Umm < Formula
   desc "A faster way to ask — direct, structured answers in your terminal"
   homepage "https://github.com/hexxt-git/umm"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hexxt-git/umm/releases/download/v0.1.0/umm-darwin-arm64"
-      sha256 "f2151c2a18eb5eaf86d31d42d60ff071eb3524b69e2609147931531c126b1b82"
+      url "https://github.com/hexxt-git/umm/releases/download/v0.2.0/umm-darwin-arm64"
+      sha256 "9ae7648b4b279ebf3d604a62358833c141a705ab18f4d94e68db0d4526f993de"
     end
     on_intel do
-      url "https://github.com/hexxt-git/umm/releases/download/v0.1.0/umm-darwin-x64"
-      sha256 "1737dcc24ca3920478c85e0ffc3b63dd1ae7509e2167b473cfdc49a8b76b2cdf"
+      url "https://github.com/hexxt-git/umm/releases/download/v0.2.0/umm-darwin-x64"
+      sha256 "4640e4625da75c889d4217c9bfe83e4e0674fef160eb981717722de50aa62959"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hexxt-git/umm/releases/download/v0.1.0/umm-linux-arm64"
-      sha256 "905beb7b978ccd6e1b4489b959abe57ed1d69c711de3f1ceb119f70838cdae52"
+      url "https://github.com/hexxt-git/umm/releases/download/v0.2.0/umm-linux-arm64"
+      sha256 "edd83b19e5ace6dac2b23c7f20d4049455bec102d7e8414a625cdd7e7dad997e"
     end
     on_intel do
-      url "https://github.com/hexxt-git/umm/releases/download/v0.1.0/umm-linux-x64"
-      sha256 "77412efaaa8028ac5a03ba6581cb4587845289c57ce603358f673630ee9840ff"
+      url "https://github.com/hexxt-git/umm/releases/download/v0.2.0/umm-linux-x64"
+      sha256 "dad7ff3c397aaad6d1f83b9df176ce736398fa086cb3966ec7021d97ef507cee"
     end
   end
 
